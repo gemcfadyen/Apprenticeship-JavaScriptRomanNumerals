@@ -39,6 +39,10 @@ describe ("Roman numeral convertion", function() {
   it ("converts 40 to XL", function() {
     expect(convert(40)).toEqual("XL");
   });
+
+  it ("converts 90 to XC", function() {
+    expect(convert(90)).toEqual("XC");
+  });
 });
 
 
