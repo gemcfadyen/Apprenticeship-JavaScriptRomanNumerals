@@ -24,10 +24,13 @@ describe ("Roman numeral convertion", function() {
     expect(convert(5)).toEqual("V");
   });
 
+  it ("converts 9 to IX", function() {
+    expect(convert(9)).toEqual("IX");
+  });
+
   it ("converts 10 to X", function() {
     expect(convert(10)).toEqual("X");
   });
-
 });
 
 
