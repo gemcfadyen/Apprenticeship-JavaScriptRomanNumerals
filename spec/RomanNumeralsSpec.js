@@ -43,6 +43,10 @@ describe ("Roman numeral convertion", function() {
   it ("converts 90 to XC", function() {
     expect(convert(90)).toEqual("XC");
   });
+
+  it ("converts 100 to C", function() {
+    expect(convert(100)).toEqual("C");
+  });
 });
 
 
