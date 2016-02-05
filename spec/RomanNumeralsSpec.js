@@ -47,6 +47,10 @@ describe ("Roman numeral convertion", function() {
   it ("converts 100 to C", function() {
     expect(convert(100)).toEqual("C");
   });
+
+  it ("converts 400 to CD", function() {
+    expect(convert(400)).toEqual("CD");
+  });
 });
 
 

@@ -1,6 +1,6 @@
 function convert(arabic) {
-  var romans = ["C", "XC", "XL", "X", "IX", "V", "IV", "I"];
-  var arabics = [100, 90, 40, 10, 9, 5, 4, 1];
+  var romans = ["CD", "C", "XC", "XL", "X", "IX", "V", "IV", "I"];
+  var arabics = [400, 100, 90, 40, 10, 9, 5, 4, 1];
   var roman_conversion = "";
 
   for (i = 0; i < romans.length; i++) {
