@@ -5,5 +5,9 @@ describe( "Roman Numerals Kata", function() {
       expect(convert(1)).toEqual("I");
     });
 
+
+    it ("converts 5 to V", function() {
+      expect(convert(5)).toEqual("V");
+    });
   });
 });
