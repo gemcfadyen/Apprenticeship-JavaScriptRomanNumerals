@@ -51,7 +51,20 @@ describe ("Roman numeral convertion", function() {
   it ("converts 400 to CD", function() {
     expect(convert(400)).toEqual("CD");
   });
+
+  it ("converts 500 to D", function() {
+    expect(convert(500)).toEqual("D");
+  });
+
+  it ("converts 900 to CM", function() {
+    expect(convert(900)).toEqual("CM");
+  });
+
+  it ("convets 1000 to M", function() {
+    expect(convert(1000)).toEqual("M");
+  });
+
+  it ("converts 3999 to MMMCMXCIX", function() {
+    expect(convert(3999)).toEqual("MMMCMXCIX");
+  });
 });
-
-
-
