@@ -60,7 +60,7 @@ describe ("Roman numeral convertion", function() {
     expect(convert(900)).toEqual("CM");
   });
 
-  it ("convets 1000 to M", function() {
+  it ("converts 1000 to M", function() {
     expect(convert(1000)).toEqual("M");
   });
 
