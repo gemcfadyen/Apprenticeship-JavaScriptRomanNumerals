@@ -16,6 +16,9 @@ describe ("Roman numeral convertion", function() {
     expect(convert(10)).toEqual("X");
   });
 
+  it ("converts 2 to II", function() {
+    expect(convert(2)).toEqual("II");
+  });
 });
 
 
