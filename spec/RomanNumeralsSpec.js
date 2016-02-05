@@ -16,6 +16,10 @@ describe ("Roman numeral convertion", function() {
     expect(convert(3)).toEqual("III");
   });
 
+  it("converts 4 to IV", function() {
+    expect(convert(4)).toEqual("IV");
+  });
+
   it ("converts 5 to V", function() {
     expect(convert(5)).toEqual("V");
   });
